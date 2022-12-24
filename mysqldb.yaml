@@ -5,7 +5,7 @@ metadata:
   name: mysql-deployment
   namespace: mysql-database
 spec:
-  replicas: 1
+  replicas: 2
   selector:
     matchLabels:
       app: mysql
